@@ -1,0 +1,118 @@
+.jumbotron {
+	background-image: url("../img/sayulita.jpg");
+	background-size: cover;
+
+}
+
+.jumbotron h1 {
+	color: white;
+}
+.jumbotron strong {
+	color: white;
+}
+
+.jumbotron a {
+	color: white;
+}
+
+body {
+	background-color: #DCDCDC;
+}
+
+.container a:hover {
+  color: #ff0;
+}
+	
+/**** contact.html ****/
+
+* { box-sizing: border-box; }
+
+body.contact {
+	background-image: url(" ../img/lighthouse.jpg");
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 120px;
+}
+
+.contenedor {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.header {
+	text-align: center;
+	font-size: xx-large;
+}
+
+.back_button {
+	text-align: left;
+    float: left;
+    width: 10%;
+}
+
+.contenedor h3 {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+/* navigation bar */
+
+.nav ul li {
+  display: inline-block;
+  padding: 10px;
+}
+.nav ul {
+  float: right;
+  padding: 10px;
+  margin: 0;
+}
+.nav {
+  background-color: #5AD4C2;
+  position: fixed;
+  text-transform: uppercase;
+  width: 100%;
+  top: 0;
+}
+.logo img {
+  margin: 15px 0 5px 20px;
+  float: left;
+  width: 30px;
+  height: 30px;
+}
+.nav a:hover {
+  color: #ff0;
+  text-decoration: none;
+  transition: color 600ms;
+  -webkit-transition: color 600ms;
+}
+
+.contenedor span:hover {
+  color: #ff0;
+}
+
+/**** FAQ.html ****/
+
+body.FAQ {
+    background-image: url(" ../img/lighthouse.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 120px;
+}
+
+.FAQheader h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: xx-large;
+}
+/* typography */
+
+h1,h3,h4,a {
+  font-family: Futura, Helvetica, Arial, sans-serif;
+  color: #FFFFFF; 
+}
+
+h1 {
+  font-size: 100px;
+}
